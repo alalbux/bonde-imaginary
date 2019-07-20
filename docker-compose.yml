@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  imaginary:
+    image: nossas/bonde-imaginary
+    ports:
+      - '9000:9000'
+    environment:
+      - PORT=9000
+    command: -concurrency 50 -enable-url-source
+
