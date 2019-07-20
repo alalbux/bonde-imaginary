@@ -1,5 +1,5 @@
 {
-  "name": "Imaginary",
+  "name": "bonde-imaginary",
   "description": "Fast HTTP microservice for high-level image processing.",
   "keywords": [
     "image",
